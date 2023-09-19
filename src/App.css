@@ -1,0 +1,64 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  gap: 16px;
+}
+
+body{
+  background-color: #eaeee8;
+}
+
+.card-grip {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column; 
+  }
+
+  .card-grip {
+    grid-template-columns: 1fr; 
+  }
+}
+
+a{
+  text-decoration: none;
+}
+
+.container button {
+  background-color: #0275db;
+  color:white;
+  font-weight: bold;
+  position :fixed;
+  bottom : 16px;
+  right: 24px;
+  transition: all 0.1s linear 0.1s
+}
+
+.container button:hover {
+  box-shadow :rgba(100,100,111,02) 0px 7px 7px 0px;
+  transform : scale(1.1);
+}
+
+.button_agregar{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(111, 241, 198);
+}
+
+.button_agregar:hover{
+  background-color: rgba(0,0,0,0.7);
+  color: white;
+}
+
+

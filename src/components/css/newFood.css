@@ -1,0 +1,77 @@
+.container_center {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.container_food {
+  text-align: center;
+  background-color: rgb(64, 70, 58);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(19, 18, 18, 0.1);  
+  width: 85%;
+  
+}
+
+.container_food h1 {
+  color: yellow;
+}
+
+.form {
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: rgb(230, 247, 4);
+}
+
+.form input {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.button_create{
+  background-color: rgb(123, 255, 0);
+  padding: 10px;
+  border-radius: 20px;
+  margin-right:20px;
+  width: 80px;
+  border-color:transparent;
+  font-family: 'Helvetica Neue',;
+  color: black;
+}
+.button_create:hover{
+  background-color: yellow;
+}
+
+.button_cancel{
+  background-color: rgb(235, 194, 12);
+  padding: 10px;
+  border-radius: 20px;
+  font-family: 'Helvetica Neue',;
+  color: black;
+
+}
+.button_cancel:hover{
+  background-color: rgb(255, 30, 0);
+}
+.obligatorio_inputs{
+  color: red;
+  font-size: small !important;
+  font-style:italic
+}
+@media (max-width: 768px) {
+  .container_food {
+    width: 90%;
+  }
+}
