@@ -15,3 +15,6 @@ Para instalar dependencias
 Para ejercutar el proyecto basta rodar
 `$npm run dev`
 
+###Backend de Rapip Food Fast
+https://github.com/CristhianSantacruz/backend-rapidfoodfast
+
